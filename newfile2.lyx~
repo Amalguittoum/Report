@@ -1,0 +1,6544 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass report
+\begin_preamble
+%\ExecuteBibliographyOptions{backref=true,isbn=false}
+%\setmainfont[Scale=1.05]{EB Garamond} % for use with XeLaTeX and LuaLaTeX; download from bitbucket.org/georgd/eb-garamond
+%Options: Sonny, Lenny, Glenn, Conny, Rejne, Bjarne, Bjornstrup
+\usepackage[Sonny]{fncychap}
+\usepackage{algorithm,algpseudocode}
+\end_preamble
+\options round
+\use_default_options true
+\begin_modules
+customHeadersFooters
+\end_modules
+\maintain_unincluded_children false
+\language french
+\language_package babel
+\inputencoding utf8
+\fontencoding global
+\font_roman "times" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command bibtex
+\index_command default
+\paperfontsize 11
+\spacing onehalf
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder true
+\pdf_colorlinks false
+\pdf_backref page
+\pdf_pdfusetitle true
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 0
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine natbib
+\cite_engine_type authoryear
+\biblio_style plainnat
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2.5cm
+\topmargin 2.5cm
+\rightmargin 2.5cm
+\bottommargin 2.5cm
+\secnumdepth 3
+\tocdepth 2
+\paragraph_separation skip
+\defskip medskip
+\is_math_indent 1
+\math_indentation default
+\math_numbering_side default
+\quotes_style french
+\dynamic_quotes 1
+\papercolumns 1
+\papersides 1
+\paperpagestyle plain
+\bullet 0 0 0 -1
+\bullet 1 0 9 -1
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+thispagestyle{empty}
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+\align center
+\begin_inset Graphics
+	filename Desktop/entete.png
+	width 17cm
+	height 5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size giant
+Rapport
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\shape italic
+\size largest
+Pour l'obtention de master en Informatique
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size huge
+Option : Systèmes Informatiques
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset VSpace 0.3cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size huge
+Thème
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+\begin_inset Box Boxed
+position "c"
+hor_pos "c"
+has_inner_box 1
+inner_pos "c"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\begin_inset VSpace 0.5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing onehalf
+\align center
+
+\shape italic
+\size largest
+La découverte distribuée des services avec une sélection basée sur la QoS
+ dans le web social des objets
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace 0.5cm
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+\begin_inset VSpace 0.5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+
+\series bold
+\size larger
+Encadré par : 
+\begin_inset space \hspace{}
+\length 7cm
+\end_inset
+
+Réalisé par :
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+
+\series bold
+\size larger
+\begin_inset space \hspace{}
+\length 0.2cm
+\end_inset
+
+
+\series default
+\size large
+Mm.
+ Chafia YAHIAOUI (ESI)
+\series bold
+ 
+\begin_inset space \hspace{}
+\length 6.7cm
+\end_inset
+
+
+\series default
+Mlle.
+ Amal GUITTOUM
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+
+\series bold
+\size larger
+\begin_inset space \hspace{}
+\length 0.2cm
+\end_inset
+
+
+\series default
+\size large
+Mm.
+ Nawal GUERMOUCHE (LAAS)
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+
+\series bold
+\size larger
+\begin_inset space \hspace{}
+\length 0.2cm
+\end_inset
+
+
+\series default
+\size large
+Mr.
+ Thierry MONTEIL (LAAS)
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+
+\series bold
+\size larger
+\begin_inset space \hspace{}
+\length 0.2cm
+\end_inset
+
+
+\series default
+\size large
+Mm.
+ Karima KHADIR (LAAS)
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+\begin_inset VSpace 0.2cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+\align center
+
+\series bold
+\size large
+Promotion : 2019/2020
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+\begin_inset FloatList figure
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+\begin_inset FloatList table
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter*
+\paragraph_spacing onehalf
+Liste des abréviations
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+addcontentsline{toc}{chapter}{
+\backslash
+protect
+\backslash
+numberline{}Liste des abréviations}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align left
+\begin_inset Tabular
+<lyxtabular version="3" rows="16" columns="2">
+<features tabularvalignment="middle">
+<column alignment="left" valignment="top" width="0pt">
+<column alignment="left" valignment="top" width="0pt">
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+AHP
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Analytic hierarchy process
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+CBA
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Classification Based on Associations
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+CIoT
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Cognitif internet of things
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+CoAP
+\series default
+ 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Protocole d’application Constrained
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+ESI
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Ecole nationale supèrieure d'informatique
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+IoT
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Internet of things
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+LAAS
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Laboratoire d’Analyse et d’Architecture des Systèmes
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+MCDM
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Multiple-criteria decision-making
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+MQTT
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Message Queuing Telemetry Transport
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+OWL
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Ontology web language
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+QoS
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Quality of service
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+RDF
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Resource Description Framework
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+REST
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Representational State Transfer
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+SIoT
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Social Internet of things
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+SOA
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Service oriented architecture
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+SWoT
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Social web of things
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter*
+Résumé et mot clé
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+addcontentsline{toc}{chapter}{
+\backslash
+protect
+\backslash
+numberline{}Résumé et mot clé}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+markboth{Résumé et mot clé}{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+\noindent
+\align block
+L’internet des Objets (IdO) permet d’interconnecter un nombre très important
+ d’objets hétérogènes et homogènes via diverses technologies et protocoles.
+ Ce nombre dépassera les 50 milliards d'ici 2020 selon Cisco.
+ Du fait de cette quantité massive d’objets connectés, la recherche d’un
+ service IoT représente un vrai défi auquel les méthodes traditionnelles
+ ne peuvent plus faire face.
+ L’intégration des concepts des réseaux sociaux et les mécanismes de Clustering
+ à l’IoT constitue une solution prometteuse pour la découverte et la composition
+ distribuée des services IoT.
+ Pour le SWoT (Social Web of Things), il fait référence à un réseau d’objets
+ intelligents capables de s’organiser entre eux pour former des communautés
+ en créant des relations sociales comme le font les humains.
+ 
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+En ce qui concerne le Clustering, il s’agit d’un processus de partitionnement
+ d’un ensemble d’objets ou de points de données en silos homogènes selon
+ des critères en commun.Le clustering permet de réduire l’espace de recherche
+ de l’algorithme de découverte.
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Des algorithmes de calcul de relations sociales ainsi que de Clustering
+ ont été proposés dans le cadre de ce travail, mais qui nécessitent d’adaptation
+ pour intégrer une sélection de services basée sur la QoS.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Mots clé : 
+\series default
+Web sociale des objets, La découverte distribuée des services, La sélection
+ des services, QoS, Sémantique.
+\end_layout
+
+\begin_layout Chapter*
+Introduction générale
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+addcontentsline{toc}{chapter}{
+\backslash
+protect
+\backslash
+numberline{}Introduction générale}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+markboth{Introduction générale}{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+\noindent
+\align block
+Avec le développements technologique en plein essor de la nanotechnologie
+ et de l'informatique embarquée, les technologies de l'information et des
+ communications ont aujourd'hui étendu leur vision de connecter le monde
+ physique avec l'espace numérique.
+ Les objets physiques qui nous entourent sont incorporés à des technologies
+ informatiques (capteurs, actionneurs, dispositifs de communication, etc.)
+ afin de leur donner une empreinte numérique et de leur permettre ainsi
+ de percevoir l'environnement et de comprendre leur rôle dans le contexte
+ de la situation actuelle.
+ Grâce à cette capacité, l'objet physique est capable d'interagir avec d'autres
+ objets à proximité pour coordonner et accomplir la tâche donnée afin d'obtenir
+ les résultats souhaités.
+ À cette fin, le paradigme de l'Internet des objets (IoT) a évolué et relie
+ les objets physiques à l'Internet et permet la création d'applications
+ qui aident à résoudre et à facilité les activités quotidiennes de manière
+ efficace et efficiente
+\series bold
+
+\begin_inset CommandInset citation
+LatexCommand citep
+key "gubbi_internet_2013"
+literal "false"
+
+\end_inset
+
+
+\series default
+.Plusieurs définitions ont été proposées pour le concept de IdO, l’Union
+ internationale des télécommunications définit l’IoT comme étant «une infrastruc
+ture mondiale pour la société de l’information, qui permet de disposer de
+ services évolués en interconnectant des objets (physiques ou virtuels)
+ grâce aux technologies de l’information et de la communication interopérables
+ existantes ou en évolution » .
+ Le but ultime de l'IdO est de créer une vie meilleure pour l'humanité ,
+ où les objets qui nous entourent comprennent nos désirs, nos exigences
+ et nos intérêts et agissent en conséquence sans prendre aucune instruction
+ extérieure
+\series bold
+
+\begin_inset CommandInset citation
+LatexCommand citep
+key "dohr_internet_2010,atzori_internet_2010"
+literal "false"
+
+\end_inset
+
+
+\series default
+.
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+\noindent
+\align block
+Bien que l'IdO soit d'un grand avantage pour la société, il pose une pléthore
+ de défis pour les concepteurs et les développeurs.
+ L'hétérogénéité est une préoccupation majeure lorsque les dispositifs IdO
+ sont de nature variable à différents niveaux et sous différents angles
+ : normes, protocoles de communication, caractéristiques de déploiement,
+ etc.
+ Ces attributs caractéristiques empêchent l'élaboration d'un modèle de solution
+ commun pour le développement d'applications, à moins que des paradigmes
+ de communication appropriés entre les dispositifs hétérogènes ne soient
+ identifiés.
+ La scalabilité est un autre problème majeur où le nombre d'appareils qui
+ se connectent au réseau IoT augmente à un rythme effarant.
+ Ces appareils offrent de nombreux services et collectent d'énormes volumes
+ de données à un rythme rapide.
+ Il est difficile de relever plusieurs de ces défis étant donné la nature
+ dynamique du système IdO
+\series bold
+
+\begin_inset CommandInset citation
+LatexCommand citep
+key "m.s._social_2019"
+literal "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+\noindent
+\align block
+Notre société est également hétérogène, dynamique et complexe par nature,
+ mais il existe des relations sociales entre nous où nous formons des communauté
+s basées sur plusieurs facteurs (comme les intérêts communs, l'influence,
+ les besoins, etc.).
+ Nous interagissons et collaborons entre les membres de la communauté pour
+ résoudre tout problème complexe.Une expérience de Stanley Milgram étudiant
+ l'efficacité des réseaux sociales, où dans une tentative de mesurer la
+ longueur moyenne du chemin pour les réseaux sociaux des gens, il a réalisé
+ que tout le monde est séparé des autres avec au plus six degrés (liens),
+ ce qui le conduit à la théorie des petits mondes
+\series bold
+
+\begin_inset CommandInset citation
+LatexCommand citep
+key "travers_experimental_1969"
+literal "false"
+
+\end_inset
+
+
+\series default
+.
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+\noindent
+\align block
+Ce concept de réseau social peut être intégré à l'IdO pour relever avec
+ succès les défis auxquels est confronté un écosystème IdO.
+ L'adoption de ces caractéristiques sociales pour le paradigme de l'IdO
+ a donné naissance à un nouveau concept de réseau social d'objets, de services
+ ou des deux, appelé Internet social des objets (SIoT)
+\series bold
+
+\begin_inset CommandInset citation
+LatexCommand citep
+key "m.s._social_2019"
+literal "false"
+
+\end_inset
+
+
+\series default
+.
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+\noindent
+\align block
+L'internet social des objets englobe plusieurs composants : la construction
+ des relations sociales entre objets, la gestion de confiance, la composition
+ des services et la découverte des services ,nous intéressons dans ce document
+ par la découverte distribuée des services avec une sélection basée sur
+ la QoS.
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+\noindent
+\align block
+Dans ce qui suit nous exposons dans le premier chapitre les concepts de
+ bases de l'internet des objets puis nous présentons dans le deuxième chapitre
+ le paradigme de SIoT ainsi que les éléments clés relatifs à son construction,
+ dans le troisième chapitre nous donnons une état de l'art sur la virtualisation
+ des objets connectés qui représente un facteur principal dans l'intégration
+ de l'intelligence dans les objets connectés pour leur permettre la découverte
+ et la sélection de service d'une façon autonome.
+ et nous cloturons ce document de recherche par deux chapitres 4 et 5 qui
+ englobent une synthèse sur les approches de découverte distribuée dans
+ le web social des objets et les méthodes de sélection de service basée
+ sur la QoS respectivement.
+\end_layout
+
+\begin_layout Chapter
+Généralité sur Internet des objets
+\end_layout
+
+\begin_layout Section
+Introduction
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+\noindent
+Le terme Internet des objets (IoT) a été introduit pour la première fois
+ par Kevin Ashton en 1999.
+ ce dernier a définit ce paradigm par : "Une nouvelle vision a été créée
+ pour le monde des technologies de l'information et de la communication
+ (TIC) : une connectivité de n'importe quel endroit et à n'importe quel
+ moment pour n'importe qui, ce qui signifie une connectivité pour n'importe
+ quoi.
+ Les connexions vont se multiplier et créer une dimension entièrement nouvelle
+ pour un réseau dynamique de réseaux - un Internet des objets".Vu la complexité
+ de ce concept, il n’existe pas encore une définition standard, unifiée.Plusieurs
+ définitions ont été proposée :
+\end_layout
+
+\begin_layout Itemize
+\paragraph_spacing onehalf
+\noindent
+\begin_inset Quotes xld
+\end_inset
+
+Une infrastructure de réseau mondial dynamique avec des capacités d'auto-configu
+ration basées sur des protocoles de communication standard et interopérables
+ où les "choses" physiques et virtuelles ont des identités, des attributs
+ physiques et des personnalités virtuelles et utilisent des interfaces intellige
+ntes, et sont intégrées de manière transparente dans le réseau d'information
+\begin_inset Quotes xrd
+\end_inset
+
+.
+\series bold
+
+\begin_inset CommandInset citation
+LatexCommand citep
+key "van_kranenburg_internet_2008"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\paragraph_spacing onehalf
+\noindent
+\begin_inset Quotes xld
+\end_inset
+
+L'Internet des Objets (IoT) est une interconnexion entre les objets, dotée
+ d'une intelligence omniprésente, utilisée par l'homme dans la vie quotidienne.
+ Les progrès à grande échelle de la technologie sans fil, de la technologie
+ de détection et de la technologie de communication font passer l'efficacité
+ de l'IdO à un niveau supérieur.
+\series bold
+
+\begin_inset Quotes xrd
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand citep
+key "paul_internet_2017"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+\noindent
+Dans ce chapitre nous présentons dans un premier temps l'architecture de
+ l'internet des objets puis nous exposons les différents technologies qui
+ les englobe réalisant les fonctionnalités d'identification, détection et
+ la mise en réseau.
+\end_layout
+
+\begin_layout Section
+Architecture
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+\noindent
+L'architecture de l'IdO devrait être flexible par nature, car elle doit
+ interconnecter des billions d'objets hétérogènes (voir la 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Nombre-de-dispositifs"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ ).
+ Il existe de nombreuses architectures proposées pour l'IdO, mais toutes
+ ne sont pas encore convergentes pour former un modèle de référence unique.
+ Il existe de nombreux projets qui ont contribué à créer une architecture
+ commune de l'IdO basée sur les changements technologiques et les recherches
+ scientifiques autour de l'aspect architectural de IdO.
+\series bold
+
+\begin_inset CommandInset citation
+LatexCommand citep
+key "kaur_survey_2018"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Desktop/con.png
+	width 10cm
+	height 6cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Nombre-de-dispositifs"
+
+\end_inset
+
+Nombre de dispositifs connectés par rapport à la population mondiale.
+\series bold
+
+\begin_inset CommandInset citation
+LatexCommand citep
+key "chahal_trust_2020"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+\noindent
+Parmi les modèles proposés, le modèle de base qui est une architecture à
+ trois couches composée des couches d'application, de réseau et de perception
+ :
+\end_layout
+
+\begin_layout Itemize
+\paragraph_spacing onehalf
+\noindent
+
+\series bold
+La couche perception :
+\series default
+ Cette couche est implémentée au bas de l'architecture.
+ Elle est aussi appelée couche capteur car elle interagit avec tous les
+ dispositifs physiques et les différents composants à travers les capteurs,
+ les actionneurs, la RFID (objets intelligents).
+ C'est la couche qui connecte réellement les objets à l'Internet .
+ Elle effectue toutes les tâches comme la collecte des données des capteurs,
+ leur mesure, leur traitement et ensuite la transmission des informations
+ générées aux couches supérieures.
+\series bold
+
+\begin_inset CommandInset citation
+LatexCommand citep
+key "kaur_survey_2018"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\paragraph_spacing onehalf
+\noindent
+
+\series bold
+La couche réseau : 
+\series default
+elle reçoit les informations transmises par la couche de perception.
+ Elle trouve la route pour transmettre l'information à un nœud central (ou
+ hub) à travers le réseau intégré et elle fournit également des services
+ de données comme l'agrégation de données, le calcul, etc.
+ Cette couche a la fonctionnalité la plus importante dans l'architecture
+ car elle contient divers dispositifs tels que des passerelles, des hubs,
+ des commutateurs, des nuages, etc.
+ ainsi que diverses technologies utilisées pour la communication.
+\series bold
+
+\begin_inset CommandInset citation
+LatexCommand citep
+key "tuwanut_survey_2015"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\paragraph_spacing onehalf
+\noindent
+
+\series bold
+La couche application :
+\series default
+ La couche supérieure de l'architecture est la couche d'application.
+ Elle reçoit des informations de la couche réseau et utilise ces informations
+ pour fournir les services requis.
+ Elle fournit divers services comme le stockage, un service d'analyse pour
+ évaluer les informations afin de prévoir l'état futur des périphériques
+ connectés.
+ De nombreuses applications existent dans cette couche comme les maisons
+ intelligentes, les villes intelligentes, le réseau intelligent de transport,
+ etc.
+\series bold
+
+\begin_inset CommandInset citation
+LatexCommand citep
+key "kaur_survey_2018"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+\noindent
+Cependant, dans la littérature récente, d'autres modèles ont été proposés
+ pour ajouter plus d'abstraction à l'architecture IdO.
+ La 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:L'architecture-IoT.-(a)"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ illustre quelques architectures communes parmi lesquelles le modèle à 5
+ couches 
+\series bold
+
+\begin_inset CommandInset citation
+LatexCommand citep
+key "al-fuqaha_internet_2015"
+literal "false"
+
+\end_inset
+
+ 
+\series default
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename collé1.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:L'architecture-IoT.-(a)"
+
+\end_inset
+
+L'architecture IoT.
+ (a) Trois couches.
+ (b) Basée sur un intergiciel.
+ (c) Basée sur une SOA.
+ (d) Cinq couches 
+\series bold
+
+\begin_inset CommandInset citation
+LatexCommand citep
+key "al-fuqaha_internet_2015"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Aperçu sur les technologies IoT
+\end_layout
+
+\begin_layout Standard
+Il existe diverses technologies telles que la RFID, les capteurs, les technologi
+es de communication, etc.
+ qui sont utilisées pour la détection, la communication et la mise en réseau
+ dans l'IdO.
+ Certaines de ces technologies constituent les fondations sur lesquelles
+ repose l'IdO, tandis que d'autres aident à son fonctionnement.
+ Cette section présente une vue d'ensemble des technologies utilisées dans
+ l'IdO.
+\end_layout
+
+\begin_layout Subsection
+Technologies d'identification
+\end_layout
+
+\begin_layout Subsubsection
+RFID (Radio Frequency Identification)
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+\noindent
+Se compose d'étiquettes RFID et de lecteurs RFID.
+ Les appareils sont équipés de micropuces qui transmettent des informations
+ par le biais de réseaux sans fil.
+ Ces informations sont ensuite traitées par les lecteurs RFID pour identifier
+ et surveiller les objets ou les appareils munis d'étiquettes RFID.
+ La RFID est utilisée depuis les années 1980 et a été largement utilisée
+ dans la logistique, les produits pharmaceutiques, la gestion de la vente
+ au détail et la gestion de la chaîne d'approvisionnement.
+ En réalité, le terme IoT a été initialement créé pour traiter des objets
+ interconnectés et interopérables ayant des identificateurs uniques en utilisant
+ la technologie RFID.
+ Les étiquettes d'RFID sont de trois types : passives, semi-passives et
+ actives.La différence réside dans leur source d'énergie.
+ Les étiquettes passives n'ont pas de source d'énergie propre et dépendent
+ du signal du lecteur.
+ Les étiquettes semi-passives ont leurs propres piles, mais ne produisent
+ de l'énergie que lorsqu'elles sont interrogées.
+ Les étiquettes actives possèdent des piles qui alimentent leurs transmissions
+ et peuvent donc initier une communication sans dépendre du lecteur.
+ Le fonctionnement de la technologie RFID est représenté sur la
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:La-technologie-RFID"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ 
+\series bold
+
+\begin_inset CommandInset citation
+LatexCommand citep
+key "chahal_trust_2020"
+literal "false"
+
+\end_inset
+
+
+\series default
+.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Desktop/RFID.png
+	width 12cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:La-technologie-RFID"
+
+\end_inset
+
+La technologie RFID 
+\series bold
+
+\begin_inset CommandInset citation
+LatexCommand citep
+key "chahal_trust_2020"
+literal "false"
+
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Technologies de détection
+\end_layout
+
+\begin_layout Subsubsection
+
+\series bold
+Capteurs
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+\noindent
+Les capteurs intelligents sont déployés et utilisés dans de larges gamme
+ d'applications.
+ Ces capteurs sont interconnectés et les informations transmises par ces
+ capteurs sont traitées et utilisées à des fins de détection, de suivi et
+ de surveillance dans différentes applications.
+ Ces capteurs peuvent être connectés par des réseaux sans fil pour permettre
+ la communication entre eux et ces réseaux sont connus sous le nom de réseaux
+ de capteurs sans fil (WSN).
+ Les WSN ont été largement utilisés dans les domaines de la santé, des sciences
+ de l'environnement, de l'industrie et de la circulation de surveillance.
+\series bold
+
+\begin_inset CommandInset citation
+LatexCommand citep
+key "chahal_trust_2020"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Actionneurs
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+\noindent
+Se définissent dans le dictionnaire «Larousse» comme suit : «un actionneur
+ est une chose qui transforme l’énergie qui lui est fournie en un phénomène
+ physique qui fournit un travail, modifie le comportement ou l’état d’un
+ système».
+ Donc, le rôle de ce composant est d’amener le système (à contrôler) d’un
+ état donné vers l’état désiré, par exemple, dans la domotique, en cas de
+ détection d’un abaissement de température, l’actionneur agit sur le système
+ pour allumer le chauffage.
+\end_layout
+
+\begin_layout Subsection
+Protocoles de communication
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+C'est l'ensemble des applications qui permet la communication entre les
+ objets en sein de L'écosystème IdO.Dans ce qui suit nous présenterons les
+ pincipaux protocoles utilisés :
+\end_layout
+
+\begin_layout Itemize
+\paragraph_spacing onehalf
+
+\series bold
+MQTT (Message Queuing Telemetry Transport Protocol)
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+\noindent
+\align block
+MQTT est l'un des plus anciens protocoles de communication M2M
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+un standard désigne l'ensemble des Solutions et Technologies permettant
+ à des outils, des machines, des automates, des systèmes, de communiquer
+ entre eux de manière automatique.
+\end_layout
+
+\end_inset
+
+, introduit en 1999.
+ Il a été développé par AndyStanford-Clark d'IBM et Arlen Nipper d'Arcom
+ ControlSystems Ltd (Eurotech).
+ Il s'agit d'un protocole de messagerie publication/souscription conçu pour
+ les réseaux légers de communication M2M sans contraintes
+\series bold
+
+\begin_inset CommandInset citation
+LatexCommand citep
+key "bandyopadhyay_lightweight_2013"
+literal "false"
+
+\end_inset
+
+
+\series default
+.
+ 
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+\noindent
+\align block
+Le client MQTT publie des messages à un courtier MQTT, qui sont souscrits
+ par d'autres clients ou peuvent être conservés pour l'abonnement futur.
+ Chaque message est publié à une adresse, connue sous le nom de sujet.
+ Les clients peuvent s'abonner à plusieurs sujets et recevoir tous les messages
+ publiés pour chaque sujet.
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+\noindent
+\align block
+MQTT est un protocole binaire et nécessite normalement un en-tête fixe de
+ 2 octets avec des petites charges utiles jusqu'à une taille maximale de
+ 256 Mo
+\series bold
+
+\begin_inset CommandInset citation
+LatexCommand citep
+key "thangavel_performance_2014"
+literal "false"
+
+\end_inset
+
+
+\series default
+.
+ Il utilise TCP comme protocole de transport et TLS/SSL pour la sécurité.
+ Ainsi, la communication entre le client et le courtier est axée sur la
+ connexion.
+ 
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+\noindent
+\align block
+Une autre grande caractéristique de MQTT est ses trois niveaux de qualité
+ de service (QoS) pour une livraison fiable des messages
+\series bold
+
+\begin_inset CommandInset citation
+LatexCommand citep
+key "bandyopadhyay_lightweight_2013"
+literal "false"
+
+\end_inset
+
+
+\series default
+.
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+\noindent
+\align block
+MQTT est plus approprié pour les grands réseaux de petits appareils qui
+ doivent être surveillés ou contrôlés à partir d'un serveur back-end sur
+ Internet.
+ Il n'est pas non plus conçu pour le transfert d'appareil à appareil de
+ données multicast vers de nombreux récepteurs.
+ Il s'agit d'un protocole de messagerie très basique qui n'offre que quelques
+ options de contrôle.
+\end_layout
+
+\begin_layout Itemize
+\paragraph_spacing onehalf
+
+\series bold
+CoAP (Constrained Application Protocol)
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+\noindent
+\align block
+CoAP est un protocole M2M léger introduit par le groupe de travail IETF
+ CoRE
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+CoRE fournit un framework pour les applications orientées ressources destinées
+ à fonctionner sur des réseaux IP restreints
+\end_layout
+
+\end_inset
+
+ (Constrained RESTful Environments).CoAP supporte à la fois l'architecture
+ demande/réponse et ressource/observe (une variante de l'architecture publicatio
+n/souscription)
+\series bold
+
+\begin_inset CommandInset citation
+LatexCommand citep
+key "bandyopadhyay_lightweight_2013"
+literal "false"
+
+\end_inset
+
+
+\series default
+.
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+\noindent
+\align block
+CoAP est principalement développé pour interagir avec HTTP et le RESTful
+ via des simples proxy.
+ Contrairement au MQTT, la CoAP utilise Universal Resource Identifier (URI)
+ au lieu des sujets
+\series bold
+
+\begin_inset CommandInset citation
+LatexCommand citep
+key "thangavel_performance_2014"
+literal "false"
+
+\end_inset
+
+
+\series default
+.
+ L'éditeur publie les données à l'URI et l'abonné s'abonne à une ressource
+ particulière indiquée par l'URI.
+ Lorsqu'un éditeur publie de nouvelles données à l'URI, tous les abonnés
+ sont informés de la nouvelle valeur indiquée par l'URI.
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+\noindent
+\align block
+CoAP est un protocole binaire et nécessite normalement un en-tête fixe de
+ 4 octets avec de petites charges utiles de messages jusqu'à une taille
+ maximale dépendant du serveur web ou de la technologie de programmation
+\series bold
+
+\begin_inset CommandInset citation
+LatexCommand citep
+key "thangavel_performance_2014"
+literal "false"
+
+\end_inset
+
+
+\series default
+.
+ La CoAP utilise UDP comme protocole de transport et DTLS pour la sécurité.Ainsi,
+ les clients et les serveurs communiquent des datagrammes sans connexion
+ avec moins de fiabilité.
+ 
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+\noindent
+\align block
+Cependant, il utilise des messages "confirmables" ou "non confirmables"
+ pour fournir deux niveaux différents de QoS.
+ Où, les messages confirmables doivent être accusés réception par le destinatair
+e avec un paquet ACK et les messages non confirmables ne le sont pas.
+ 
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+\noindent
+\align block
+Le CoAP offre plus de fonctionnalités que le MQTT puisqu'il supporte la
+ négociation de contenu pour exprimer une représentation préférée d'une
+ ressource, ce qui permet au client et au serveur d'évoluer indépendamment,
+ en ajoutant de nouvelles représentations sans s'affecter mutuellement.
+\end_layout
+
+\begin_layout Itemize
+\paragraph_spacing onehalf
+
+\series bold
+AMQP (Advanced Message Queuing Protocol)
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+\noindent
+\align block
+AMQP est un protocole M2M léger, qui a été développé par John O'Hara à JPMorgan
+ Chase à Londres, Royaume-Uni en 2003.
+ Il s'agit d'un protocole de messagerie d'entreprise conçu pour la fiabilité,
+ la sécurité, l'approvisionnement et l'interopérabilité.AMQP prend en charge
+ les deux architectures demande/réponse et publication/abonnement
+\series bold
+
+\begin_inset CommandInset citation
+LatexCommand citep
+key "han_semantic_2015"
+literal "false"
+
+\end_inset
+
+
+\series default
+.
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+\noindent
+\align block
+Le système de communication AMQP exige que l'abonné ou le consommateur crée
+ un "échange" avec un nom donné, puis diffuse ce nom.
+ Les éditeurs et les consommateurs utilisent le nom de cet échange pour
+ se découvrir mutuellement.
+ Par la suite, le consommateur crée une "file d'attente" et l'attache en
+ même temps à l'échange.
+ Les messages reçus par l'échange doivent être mis en file d'attente via
+ un processus appelé "binding".
+ L'AMQP échange les messages de différentes manières : directement, sous
+ forme de fanout, par sujet, ou en fonction des en-têtes.
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+\noindent
+\align block
+AMQP est un protocole binaire et nécessite normalement un en-tête fixe de
+ 8 octets avec de petites charges utiles de messages jusqu'à une taille
+ maximale dépendant de la technologie de programmation du courtier ou du
+ serveur
+\series bold
+
+\begin_inset CommandInset citation
+LatexCommand citep
+key "luzuriaga_comparative_2015"
+literal "false"
+
+\end_inset
+
+
+\series default
+.
+ AMQP utilise TCP comme protocole de transport par défaut et TLS/SSL et
+ SASL pour la sécurité
+\series bold
+
+\begin_inset CommandInset citation
+LatexCommand citep
+key "han_semantic_2015"
+literal "false"
+
+\end_inset
+
+
+\series default
+.
+ 
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+\noindent
+\align block
+Ainsi, la communication entre le client et le courtier est axée sur la connexion.
+ La fiabilité est l'une des caractéristiques de base de l'AMQP, et elle
+ offre deux niveaux préliminaires de qualité de service (QoS) pour la livraison
+ des messages : Unsettle Format (non fiable) et Settle Format (fiable).
+\end_layout
+
+\begin_layout Itemize
+\paragraph_spacing onehalf
+
+\series bold
+HTTP (Hyper Text Transport Protocol)
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+\noindent
+\align block
+HTTP est principalement un protocole de messagerie Web, qui a été développé
+ à l'origine par Tim Berners-Lee.
+ Plus tard, il a été développé conjointement par l'IETF et le W3C et publié
+ pour la première fois comme protocole standard en 1997
+\series bold
+
+\begin_inset CommandInset citation
+LatexCommand citep
+key "han_semantic_2015"
+literal "false"
+
+\end_inset
+
+
+\series default
+.
+ HTTP prend en charge l'architecture Web request/response RESTful.
+ Comme le CoAP, HTTP utilise l'identificateur de ressource universel (URI)
+ à la place des sujets.
+ Les serveurs envoient les données par l'intermédiaire de l'URI et le client
+ reçoit les données par l'intermédiaire de l'URI spécifique.
+ HTTP est un protocole basé sur du texte et ne définit pas la taille de
+ l'en-tête et de la charge utile des messages, mais dépend plutôt du serveur
+ Web ou de la technologie de programmation.HTTP utilise TCP comme protocole
+ de transport par défaut et TLS/SSL pour la sécurité
+\series bold
+
+\begin_inset CommandInset citation
+LatexCommand citep
+key "grigorik_making_2013"
+literal "false"
+
+\end_inset
+
+
+\series default
+.
+ Ainsi, la communication entre le client et le serveur est axée sur la connexion.
+ Il ne définit pas explicitement la qualité de service et nécessite un soutien
+ supplémentaire.
+ HTTP est un standard de messagerie Web accepté dans le monde entier qui
+ offre plusieurs fonctionnalités telles que des connexions persistantes,
+ le pipelining de requêtes et l'encodage par transfert de morceaux 
+\series bold
+
+\begin_inset CommandInset citation
+LatexCommand citep
+key "naik_native_2016"
+literal "false"
+
+\end_inset
+
+
+\series default
+,
+\series bold
+
+\begin_inset CommandInset citation
+LatexCommand citep
+key "naik_web_2016"
+literal "false"
+
+\end_inset
+
+ 
+\series default
+et
+\series bold
+
+\begin_inset CommandInset citation
+LatexCommand citep
+key "grigorik_making_2013"
+literal "false"
+
+\end_inset
+
+
+\series default
+.
+\end_layout
+
+\begin_layout Chapter
+\paragraph_spacing onehalf
+Généralité sur SIoT/SWoT
+\end_layout
+
+\begin_layout Section
+\paragraph_spacing onehalf
+Le paradigm SIoT
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+\noindent
+\align block
+Le concept derrière SIoT est de permettre aux objets intelligents de créer
+ un réseau social similaire à un réseau social humain.
+ L’objectif est d’exploiter les relations sociales entre les objets dans
+ un environnement IoT pour faciliter la découverte efficace d’informations,
+ promouvoir l’évolutivité, améliorer la communication interactive entre
+ les objets qui sont des amis et atteindre la fiabilité
+\series bold
+
+\begin_inset CommandInset citation
+LatexCommand citep
+key "atzori_social_2012"
+literal "false"
+
+\end_inset
+
+
+\series default
+.Ces relations sont utilisées par un module de découverte de services pour
+ localiser les objets pouvant fournir les services requis, de la même manière
+ que les humains recherchent des informations et des amitiés.
+ De plus, l'architecture SIoT nécessite un module de gestion des relations
+ pour gérer les relations résultantes, ce qui peut introduire des connaissances
+ dans SIoT, permettant aux objets d'établir, de maintenir et de terminer
+ des relations.
+\series bold
+
+\begin_inset CommandInset citation
+LatexCommand citep
+key "saleem_exploitation_2016"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+\noindent
+\align block
+Dans ce qui suit nous allons d'abord présenter les types de relations sociales
+ puis nous citant quelques frameworks implémentant le paradigme SIoT, ensuite
+ nous exposons les domaines de recherche dans SIoT et nous terminons cette
+ partie par l'explication de paradigme SWoT et les défis que SIoT faire
+ face.
+\end_layout
+
+\begin_layout Section
+\paragraph_spacing onehalf
+Types des relations sociales
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+\noindent
+\align block
+Afin de déterminer les modèles d'interaction et les relations qui peuvent
+ avoir lieu entre des objets communicants, les chercheurs se sont inspirés
+ des travaux scientifiques dans les domaines de la sociologie, et de l'anthropol
+ogie sociale (Fiske et al., 1991), (Hoorenset al., 2000) réalisés sur les
+ relations sociales entre les êtres humains et leurs transcriptions potentielles
+ vers des objets.
+ 
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Desktop/fisk.png
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Transposition-des-modèles"
+
+\end_inset
+
+Transposition des modèles relationnels sociaux de Fiske vers le monde des
+ objets communicants 
+\series bold
+
+\begin_inset CommandInset citation
+LatexCommand citep
+key "bajic_apports_2018"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+\noindent
+\align block
+\begin_inset Quotes xld
+\end_inset
+
+
+\shape italic
+L’approche sociale dans l’analyse des comportements entre objets communicants
+ a été avancée par 
+\series bold
+
+\begin_inset CommandInset citation
+LatexCommand citep
+key "atzori_social_2012"
+literal "false"
+
+\end_inset
+
+
+\series default
+, 
+\series bold
+
+\begin_inset CommandInset citation
+LatexCommand citep
+key "pintus_humanizing_2015"
+literal "false"
+
+\end_inset
+
+
+\series default
+, qui ont proposé un modèle de comportement entre objets communicants en
+ se basant sur le modèle relationnel de Fiske.
+ Le Tableau 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Transposition-des-modèles"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ illustre le modèle de socialité relationnel selon Fiske et sa transposition
+ sur des objets communicants
+\shape default
+
+\begin_inset Quotes xrd
+\end_inset
+
+
+\series bold
+
+\begin_inset CommandInset citation
+LatexCommand citep
+key "bajic_apports_2018"
+literal "false"
+
+\end_inset
+
+
+\series default
+.Ces recherches ont dérivé les types de relation de base entre les objets:
+\end_layout
+
+\begin_layout Itemize
+\paragraph_spacing onehalf
+Parental object relationship (POR) : Lorsque des objets appartiennent à
+ une même famille (objets similaires, même catégorie, construits dans une
+ même période, par le même fabricant, appartenant à un même lot).
+\end_layout
+
+\begin_layout Itemize
+\paragraph_spacing onehalf
+Co-location object relationship (CLOR) : Lorsque des objets sont présents
+ simultanément au même endroit (sur une machine, dans un atelier, une maison,
+ une ville,...)
+\end_layout
+
+\begin_layout Itemize
+\paragraph_spacing onehalf
+Co-work object relationship (CWOR): Lorsque des objets coopèrent ensemble
+ dans une même application ou un même processus,pour réaliser une tâche
+ ou un butcollectif.
+\end_layout
+
+\begin_layout Itemize
+\paragraph_spacing onehalf
+Ownership object relationship (OOR): Lorsque des objets appartiennent au
+ même propriétaire et interagissent entre eux.
+ L’objet peut être porté par son propriétaire (une personne,une machine
+ ou un autre objet).
+ Le propriétaire peut stimuler l’interaction desobjets.
+\end_layout
+
+\begin_layout Itemize
+\paragraph_spacing onehalf
+Social object relationship (SOR): Lorsque des objets se rencontrent et entrent
+ en contact, de façon sporadique ou continue, au travers de la rencontre
+ physique de leurs propriétaires respectifs.
+ L’aspect socialde l’interaction entre objets décline de l’interaction sociale
+ entre leurspropriétaires.
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+En plus des relations sociales citées au dessus le travail 
+\series bold
+
+\begin_inset CommandInset citation
+LatexCommand citep
+key "ali_model_2018"
+literal "false"
+
+\end_inset
+
+
+\series default
+présente quelques relations supplémentaires adaptées à certains scénarios
+ :
+\end_layout
+
+\begin_layout Itemize
+\paragraph_spacing onehalf
+Sibling Object Relationship (SIBOR) : est créé parmi des objets appartenant
+ à un groupe d'amis ou de membres de la famille.Cette relation est plus utile
+ dans les scénarios où la confiance est très importante pour l’établissement
+ d’une connexion.
+ Contrairement à la relation plus générale POR, SIBOR est établie parmi
+ des objets du même fabricant ayant des caractéristiques similaires mais
+ des comportements différents.
+\end_layout
+
+\begin_layout Itemize
+\paragraph_spacing onehalf
+Guest object relationship (GSTOR) : est formé entre les objets appartenant
+ aux utilisateurs du rôle invité.Par exemple, quand une personne se rend
+ chez un ami et obtient le privilège d’invité.
+ La même chose peut être appliquée aux objets qui se déplacent dans la relation
+ d’invité (GSTOR) d’un endroit à un autre; ils auront un privilège d'accessibili
+té de l'information par rapport à d'autres objets.
+\end_layout
+
+\begin_layout Itemize
+\paragraph_spacing onehalf
+Stranger Object Relation (STGOR) : s'applique aux objets qui rencontrent
+ la présence les uns des autres dans un environnement anonyme tel que sur
+ la route ou dans l'environnement public.
+ Semblable aux personnes qui se rencontrent parfois de manière régulière
+ mais qui sont anonymes les unes des autres ou ne se connaissent pas parfaitemen
+t, cette relation peut être utilisée entre objets pour former différents
+ niveaux de confiance ou des restrictions strictes pour promouvoir des connexion
+s sécurisées.
+\end_layout
+
+\begin_layout Itemize
+\paragraph_spacing onehalf
+Service object relationship (SVOR) : les objets forment une relation tout
+ en se coordonnant dans la même composition de service pour répondre à une
+ demande de service.
+ En règle générale, dans le schéma proposé, l'exécution de la demande de
+ service génère un mashup d'objets, et les objets appartenant au même mashup
+ sont supposés être dans SVOR.
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+\noindent
+\align block
+Le travail 
+\series bold
+
+\begin_inset CommandInset citation
+LatexCommand citep
+key "alam_toward_2015"
+literal "false"
+
+\end_inset
+
+
+\series default
+a introuduit la relation Guardian Object Relationship (GOR) dans le scénario
+ Internet des véhicules (IoV), des unités embarquées deviennent des enfants
+ par rapport aux super-nœuds d'unités en bordure de route.
+ Cette association enfant-parent donne une signification particulière à
+ une nouvelle relation hiérarchique.
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+\noindent
+\align block
+Les relations dans un système SIoT peuvent être classées en deux types:
+ 
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+(i) relation utilisateur-objet (relation UO): lorsqu'il existe une forme
+ d'association entre l'utilisateur et l'objet physique.
+ 
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+(ii) relation objet-objet (relation OO) : où les objets physiques sont liés
+ les uns aux autres par une relation 
+\series bold
+
+\begin_inset CommandInset citation
+LatexCommand citep
+key "m.s._social_2019"
+literal "false"
+
+\end_inset
+
+
+\series default
+:
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float table
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="2" columns="2">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Relation UO
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Relation OO
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+OOR, SOR, SIBOR,GSTOR
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+POR, CLOR, CWOR, GOR,STGOR, SVOR
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Classification des relations sociales
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Plateforme et applications
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+\noindent
+\align block
+Plusieurs architecture et framework ont été proposé pour intégrer l'aspect
+ social à l'internet des objets,produisant ainsi une solution complète qui
+ permet de gérer les différents éléments de SIoT.
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+\noindent
+\align block
+Dans ce qui suit nous allons d'abord définir les différents concepts et
+ technologies utilisée dans la conception des architectures et des frameworks
+ SIoT, puis nous allons détaillé quelque travaux dans ce contexte.
+\end_layout
+
+\begin_layout Subsection
+Concepts et technologies utilisées
+\end_layout
+
+\begin_layout Subsubsection
+Internet des objets Cognitve (CIoT)
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+\noindent
+\align block
+Il s'agit d'une couche d'intelligence rajoutée aux objets pour leur permettre
+ la gestion autonome des différents modules de SIoT.
+\shape italic
+CIoT
+\begin_inset Quotes xld
+\end_inset
+
+Cognitive Internet of Things
+\shape default
+
+\begin_inset Quotes xrd
+\end_inset
+
+ est le résultat de laison entre IoT et cognitive computing ,définit dans
+\series bold
+
+\begin_inset CommandInset citation
+LatexCommand citep
+key "zhang_cognitive_2012"
+literal "false"
+
+\end_inset
+
+
+\series default
+ par 
+\begin_inset Quotes xld
+\end_inset
+
+
+\shape italic
+un IoT avec des mécanismes cognitifs et coopératifs qui s'intègrent pour
+ promouvoir la performance et atteindre l'intelligence
+\shape default
+
+\begin_inset Quotes xrd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+\noindent
+\align block
+la cognition signifie penser, et bien que les objets ne soient pas encore
+ capables de penser comme les humains, ils peuvent maintenant exécuter certaines
+ des mêmes fonctions sous-jacentes que les humains perçoivent comme la pensée
+ qui comporte trois éléments clés : comprendre, raisonner et apprendre.
+\end_layout
+
+\begin_layout Subsubsection
+Web sémantique
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+\noindent
+\align block
+Beaucoup de travaux ont intégré les technologies de web sémantique dans
+ SIoT pour garantir l'interopérabilité mais aussi pour ajouter l'aspect
+ 
+\begin_inset Quotes xld
+\end_inset
+
+meaning
+\begin_inset Quotes xrd
+\end_inset
+
+ aux diférents éléments de SIoT.
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+\noindent
+\align block
+le web sémantique se base sur trois éléments : 
+\end_layout
+
+\begin_layout Itemize
+\paragraph_spacing onehalf
+\noindent
+\align block
+Les onthologies : 
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+\noindent
+\align block
+Les ontologies sont un moyen efficace pour structurer intelligemment un
+ domaine, en fournissant une indexation de contenu des diverses ressources
+ en utilisant des annotations sémantiques pour représenter les connaissances
+ explicites relatives à un domaine donné.
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+\noindent
+\align block
+La conceptualisation des objets et de leurs relations sociales dans les
+ structures sémantiques est très bénéfique pour déduire de nouvelles connexions
+ entre un réseau d'objets à l'aide de techniques de raisonnement.
+ L'ontologie facilite la représentation des objets, ainsi que ce qu'ils
+ mesurent en termes d'observations, de traitement et de fonctions.
+ La relationontologie des objets Web contient les concepts qui définissent
+ chaque intermède objet d'une classe.
+ Les propriétés de données sont utilisées pour représenter les valeurs objet
+ et les propriétés objet sont définies pour identifier le lien entre deux
+ objets dans l'ontologie.
+\series bold
+
+\begin_inset CommandInset citation
+LatexCommand citep
+key "ali_model_2018"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\paragraph_spacing onehalf
+\noindent
+\align block
+Language de description
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\paragraph_spacing onehalf
+\noindent
+\align block
+Pour implémenter les onthologies ,les languages de description sont utilisés
+ ,les plus examiner dans les onthologies SIoT sont :
+\end_layout
+
+\begin_layout Itemize
+\paragraph_spacing onehalf
+\noindent
+\align block
+RDF : est un modèle standard pour l'échange de données sur le Web.
+ RDF possède des fonctionnalités qui facilitent la fusion des données même
+ si les schémas sous-jacents diffèrent, et il prend spécifiquement en charge
+ l'évolution des schémas au fil du temps sans exiger la modification de
+ tous les consommateurs de données.
+\end_layout
+
+\begin_layout Itemize
+\paragraph_spacing onehalf
+\noindent
+\align block
+OWL : le langage d'ontologie Web du Web (OWL) du W3C est un langage Web
+ sémantique conçu pour représenter des connaissances riches et complexes
+ sur des choses, des groupes de choses et des relations entre des choses.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+\paragraph_spacing onehalf
+\noindent
+\align block
+Language de requête : permet de interroger des données réprésentées dans
+ le format RDF ,le language le plus utilisé dans les travaux SIoT est le
+ language SPARQL qui permet de rechercher, d'ajouter, de modifier ou de
+ supprimer des données RDF.
+\end_layout
+
+\begin_layout Subsubsection
+Patterns
+\end_layout
+
+\begin_layout Standard
+le pattern le plus utilisé (en plus de l'API 
+\series bold
+RESTFUL)
+\series default
+ pour la communication inter-objets dans SIoT :
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Publication-Souscription
+\series default
+ : permet la diffusion massive d'informations aux parties intéressées de
+ manière efficace.
+ Il réduit de moitié le trafic réseau en permettant à l'éditeur d'informations
+ d'envoyer ses informations une seule fois à un serveur de publication /
+ abonnement, qui les retransmet ensuite à ses abonnés,les objets publier
+ leur services fournis et cherche les service requis pour inscrir de dans.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Desktop/pubsub.png
+	width 9cm
+	height 5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Le pattern Publication-Souscription 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "kasnesis_cognitive_2017"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Styles architecturales
+\end_layout
+
+\begin_layout Standard
+Les styles architecturals fréquement utilisés dans les plateforme SIoT :
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+SOA 
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+\noindent
+\align block
+Une architecture orientée services (notée SOA pour Services Oriented Architectur
+e) est une architecture logicielle s'appuyant sur un ensemble de services
+ simples,l'objectif d'une architecture orientée services est donc de décomposer
+ une fonctionnalité en un ensemble de fonctions basiques, appelées services,
+ fournies par des composants et de décrire finement le schéma d'interaction
+ entre ces services.
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Microservice 
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+\noindent
+\align block
+\begin_inset Quotes xld
+\end_inset
+
+L'architecture des microservices est en train de devenir une nouvelle tendance
+ parmi les pratiques de développement d'applications Web distribuées.
+ Pour développer des systèmes basés sur la SOA, les microservices sont devenus
+ une approche de premier plan dans le monde réel 
+\series bold
+
+\begin_inset CommandInset citation
+LatexCommand citep
+key "newman_building_2015"
+literal "false"
+
+\end_inset
+
+
+\series default
+.
+ Dans le modèle architectural basé sur les microservices, chaque application
+ incorpore un ensemble de petits services qui s'exécutent indépendamment
+ et utilisent des mécanismes de communication légers.
+ Les microservices ont pour objectif de faire une chose à la fois, selon
+ le principe de la responsabilité unique, défini par Robert C.
+ Martine 
+\begin_inset Quotes xld
+\end_inset
+
+Réunissez les éléments qui changent pour la même raison et séparez les éléments
+ qui changent pour des raisons différents 
+\begin_inset Quotes xrd
+\end_inset
+
+
+\series bold
+
+\begin_inset CommandInset citation
+LatexCommand citep
+key "farcic_devops_2017"
+literal "false"
+
+\end_inset
+
+
+\series default
+.
+ De plus, les microservices sont conçus comme des entités autonomes, ce
+ qui signifie qu'ils peuvent être modifiés et déployés indépendamment les
+ uns des autres sans exiger que leurs consommateurs changent 
+\series bold
+
+\begin_inset CommandInset citation
+LatexCommand citep
+key "newman_building_2015"
+literal "false"
+
+\end_inset
+
+
+\series default
+
+\begin_inset Quotes xrd
+\end_inset
+
+ 
+\series bold
+
+\begin_inset CommandInset citation
+LatexCommand citep
+key "ali_model_2018"
+literal "false"
+
+\end_inset
+
+
+\series default
+.
+\end_layout
+
+\begin_layout Subsubsection
+\paragraph_spacing onehalf
+Le Clustering 
+\end_layout
+
+\begin_layout Standard
+L'énorme espace de recherche représente un vrai défi qui empèche la création
+ d'un mécanisme de découverte sémantique de service évolutif et efficace
+ pour l'internet des objets à grande échelle (IoT),de ce fait plusieurs
+ techniques ont été proposés pour réduire l'espace de recherche sur lequelle
+ l'algorithme de découverte exerce.Parmis les méthodes proposée celle qui
+ consiste à l'utilisation des algorithmes de l'apprentissage machine tel
+ que le clustering,La classification et les règles d'assossiation.
+\end_layout
+
+\begin_layout Standard
+Le principe des algorithmes de clustering consiste à la réorganisation d'un
+ ensemble de données en différents groupes sur la base de normes de similarité,
+ transformant ainsi un problème complexe en une série de problèmes plus
+ simples, plus faciles à gérer.En se basant sur les groupes résultants de
+ clustering, un ensemble de services correspondants peut être renvoyé en
+ comparant la similarité entre la requête et le groupe associé, plutôt que
+ de calculer la similarité entre la requête et chaque service de l'ensemble
+ de données.
+ Si les résultats de service renvoyés ne sont pas compatibles avec la requête
+ de l'utilisateur, le deuxième meilleur groupe sera choisi et le calcul
+ passe à l'itération suivante.
+\end_layout
+
+\begin_layout Subsection
+\paragraph_spacing onehalf
+Travaux existants
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+\noindent
+\align block
+Parmi les travaux pertinents proposés citant :
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+\noindent
+\align block
+Le travail 
+\series bold
+
+\begin_inset CommandInset citation
+LatexCommand citep
+key "kasnesis_cognitive_2017"
+literal "false"
+
+\end_inset
+
+
+\series default
+propose un framework pour le Congnitif SIoT paradigme basé sur la combinaison
+ de la recherche distribuée pour les services de IoT avec l'évolutivité
+ de SIoT et le raisonnement cognitif de CIoT pour la prise de décision .Pour
+ remedier au problème d'hétérogénéité et pour implémenter l'intelligence
+ dans les objets, les technologies de web sémantique ont été utilisées et
+ pour cela deux ontologies pour le Paradigme SIoT ont été introduites :
+ 
+\end_layout
+
+\begin_layout Itemize
+\paragraph_spacing onehalf
+
+\series bold
+Social Smart Object Relations Objects Relations Ontology (SSOR) 
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+\noindent
+\align block
+Représente les types de relations sociales introduits par 
+\series bold
+
+\begin_inset CommandInset citation
+LatexCommand citep
+key "atzori_social_2012"
+literal "false"
+
+\end_inset
+
+
+\series default
+.Comme montre la figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:SSOR-ONT"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ l'entité principale qui réprésente SIoT est Social object qui est de type
+ objet :
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Desktop/ssor.png
+	width 12cm
+	height 6cm
+	rotateOrigin centerTop
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:SSOR-ONT"
+
+\end_inset
+
+SSOR-ONT 
+\series bold
+
+\begin_inset CommandInset citation
+LatexCommand citep
+key "kasnesis_cognitive_2017"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\paragraph_spacing onehalf
+
+\series bold
+Smart Object's Needs and Services Ontology (SONS)
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+\noindent
+\align block
+Dans la plupart des cas du Paradigme IoT, les objets, même s'ils sont considérés
+ comme des objets intelligents , ne sont pas capables de prendre des décisions
+ complexes c'est pour cela une autre onthologie a été utilisée qui étend
+ la notion de l'objet vers la notion de l'agent, et le Social object vers
+ Agent Operation en fonction des besoins, des services et des topics dont
+ les entitées intelligentes ont besoin, offrent et produisent ou souscrivent
+ respectivement.L'approche fondée sur l'agent tire parti de la puissance
+ de calcul que les sysèmes multi-agent possèdent, pour prendre des décisions
+ en ce qui concerne la gestion des relations sociales et la réalisation
+ des objectifs.
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+\noindent
+\align block
+Les systèmes multi-agents sont définit par 
+\begin_inset Quotes xld
+\end_inset
+
+
+\shape italic
+un environnement comprenant de multiples agents cognitifs en interaction,
+ à savoir les agents de dispositif, les agents humains et les agents de
+ tâche.
+ les agents de dispositif représentent des objets intelligents, tandis que
+ les agents humains représentent les humains et les agents de tâche représentent
+ des applications.
+ Toutes ces entités produisent des services et ont des besoins
+\shape default
+
+\begin_inset Quotes xrd
+\end_inset
+
+.
+\series bold
+
+\begin_inset CommandInset citation
+LatexCommand citep
+key "kasnesis_cognitive_2017"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+\noindent
+\align block
+Contrairement à SSOR-Ont, la principale entité de SONS-Ont est l'Agent,
+ qui peut être l'une des trois classes : Device Agent, User Agent et Task
+ Agent, qui sont respectivement les agents des classes Objet, User et Applicatio
+n comme montre la figure
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:SONS-ONT"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.De plus, les SONS-Ont peuvent être facilement combinés à des techniques
+ d'intelligence artificielle (telles que l'apprentissage du renforcement)
+ qui vont être intégrées à ces agents, ce qui permet d'établir de nouvelles
+ relations dynamiques de type co-work :
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Desktop/sons.png
+	width 12cm
+	height 6cm
+	rotateOrigin centerTop
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:SONS-ONT"
+
+\end_inset
+
+SONS-ONT
+\series bold
+
+\begin_inset CommandInset citation
+LatexCommand citep
+key "kasnesis_cognitive_2017"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+\noindent
+\align block
+
+\series bold
+\begin_inset CommandInset citation
+LatexCommand citep
+key "ali_model_2018"
+literal "false"
+
+\end_inset
+
+
+\series default
+ ont utilisé l'ontologie sémantique pour établir dynamiquement une nouvelle
+ relation sociale afin de fournir des services efficaces avec l'utlisation
+ de l'achitecture de référence 
+\begin_inset Quotes xld
+\end_inset
+
+Web des objets
+\begin_inset Quotes xrd
+\end_inset
+
+ comme support, aussi ils ont utilisé une architecture à base des microservices
+ pour déployer les différents modules de SIoT comme la découverte et la
+ gestion des relations sociales,l'onthologie proposée dans ce travail se
+ base sur les microservices, les VOs (représentation numérique d'un objet
+ physique), les CVOs (composition de plusieurs objets VOs pour un objectif
+ bien définie) et leurs relations sociales.
+ De plus, les microservices ont une instance individuelle qui définit de
+ manière unique un objet de microservice et les données associées.
+ De la même manière, les CVO et les VO sont également instanciés et contiennent
+ des propriétés de données pour conserver leurs valeurs.
+ Avec le nombre croissant d'objets, un modèle d'ontologie sémantique est
+ utilisé pour effectuer une fonction de raisonnement qui aide à identifier
+ de nouvelles connexions :
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Desktop/onto.png
+	width 12cm
+	height 6cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Onthologies CVO-VO-Microservices 
+\series bold
+
+\begin_inset CommandInset citation
+LatexCommand citep
+key "ali_model_2018"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Modules SIoT
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+\noindent
+\align block
+SIoT permet de créer des applications captivantes qui facilitent l'interaction
+ entre les humains et les objets physiques à travers l'espace numérique,
+ permettant ainsi la création d'une communauté partagée qui contribue à
+ l'amélioration de la société.
+ Plusieurs domaines du paradigme SIoT requièrent l’attention des milieux
+ de la recherche, des industries et du monde universitaire, nommé par le
+ travail 
+\series bold
+
+\begin_inset CommandInset citation
+LatexCommand citep
+key "m.s._social_2019"
+literal "false"
+
+\end_inset
+
+ 
+\series default
+par 
+\shape italic
+
+\begin_inset Quotes xld
+\end_inset
+
+Thrust Areas
+\begin_inset Quotes xrd
+\end_inset
+
+
+\shape default
+ du SIoT, pour relever les défis et résoudre les problèmes en suspens et
+ pour développer des applications attrayantes largement acceptées.
+ Ces zones sont décrites à la Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Les-domaine-de"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ et expliquées ci-après: 
+\end_layout
+
+\begin_layout Enumerate
+\paragraph_spacing onehalf
+\noindent
+\align block
+Découverte et composition du service: La découverte du service est un composant
+ essentiel, elle recherche le service disponible à partir d'objets similaires
+ aux êtres humains recherchant des informations et des services sur les
+ réseaux sociaux.
+ La composition de service active les interactions entre les objets où les
+ services sont identifiés par le composant de découverte de service.
+\end_layout
+
+\begin_layout Enumerate
+\paragraph_spacing onehalf
+\noindent
+\align block
+Navigabilité du réseau: chaque objet du réseau établit de manière autonome
+ divers types de relations et utilise les liens résultants pour naviguer
+ sur le réseau.
+ Cela raccourcit la longueur de chemin moyenne entre toutes les paires d'objets
+ et rend le processus de découverte d'objet et de service plus efficace
+ et évolutif.
+ 
+\end_layout
+
+\begin_layout Enumerate
+\paragraph_spacing onehalf
+\noindent
+\align block
+Gestion de la fiabilité 
+\begin_inset Quotes xld
+\end_inset
+
+
+\shape italic
+Trustworthiness
+\shape default
+
+\begin_inset Quotes xrd
+\end_inset
+
+: assure une interaction fiable entre les objets, réduisant ainsi l'exposition
+ aux objets malveillants.
+ 
+\end_layout
+
+\begin_layout Enumerate
+\paragraph_spacing onehalf
+\noindent
+\align block
+Gestion de la relation: Intègre l'intelligence aux objets afin qu'ils puissent
+ se rendre compte de leurs amis et de leurs ennemis et commencer une amitié,
+ mettre à jour le statut au fur et à mesure des changements et mettre fin
+ à la relation.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Desktop/trust.png
+	width 12cm
+	height 6cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Les-domaine-de"
+
+\end_inset
+
+Les domaine de recherche de SIoT 
+\series bold
+
+\begin_inset CommandInset citation
+LatexCommand citep
+key "m.s._social_2019"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Dans cette mémoire nous intéressons à la découverte distribuée des services
+ au sein de SIoT.
+\end_layout
+
+\begin_layout Section
+De SIoT vers SWoT
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+\noindent
+\align block
+La migration de internet social des objets (SIoT) vers le web social des
+ objets (SWoT) est due à La migration de l'internet des objets vers le web
+ des objets: l'IdO intègre des appareils et des objets de la vie quotidienne
+ dans un réseau omniprésent.
+ Néanmoins, bien que les objets deviennent connectés au niveau de la couche
+ réseau, ils restent isolés au niveau de la couche application.
+ Compte tenu de la diversité des choses connectées envisagées, il est irréaliste
+ d’imaginer un middleware commun à toutes choses.
+ Pour résoudre ce problème, certains chercheurs se sont tournés vers le
+ Web en tant que plateforme d'intégration.
+\series bold
+
+\begin_inset CommandInset citation
+LatexCommand citep
+key "ciortea_weaving_2016"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Défis de SIoT
+\end_layout
+
+\begin_layout Standard
+L'environnement du SIoT est confronté aux défis suivants : 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "m.s._social_2019"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+L'évolutivité
+\series default
+ : Le système de découverte doit gérer un grand nombre d'objets connectés
+ au SIoT.
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Mobilité
+\series default
+ : Le système de découverte doit gérer les objets qui changent d'emplacement
+ plus fréquemment.
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Dynamicité
+\series default
+ : Le système de découverte doit gérer les entrées et sorties constantes
+ du réseau qui entraînent des changements dans la topologie du réseau.
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Existence opportuniste
+\series default
+ : Le système de découverte doit traiter l'état d'interaction dynamique
+ des objets avec le réseau SIoT.
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Hétérogénéité
+\series default
+ : Le système de découverte devrait prendre en considération une grande
+ variété d'objets, de multiples protocoles de communication et une variété
+ d'applications.
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Interopérabilité
+\series default
+ : Le système de découverte doit fonctionner parmi des sources de données
+ hétérogènes à différents niveaux et sur différentes plateformes.
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Adaptabilité
+\series default
+ : Les protocoles de confiance conçus pour le système de découverte doivent
+ s'adapter à l'évolution des conditions environnementales.
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Capacité de survie
+\series default
+ : Les protocoles de gestion de la confiance conçus pour le système de découvert
+e doivent résister aux attaques malveillantes.
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Résilience
+\series default
+ : Le système de découverte doit être résilient aux attaques et établir
+ un canal de communication sécurisé.
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Normalisation
+\series default
+ : Le système de découverte devrait être réalisé avec des protocoles de
+ communication standard largement acceptés.
+\end_layout
+
+\begin_layout Chapter
+La virtualisation des objets connectés
+\end_layout
+
+\begin_layout Section
+Introduction
+\end_layout
+
+\begin_layout Standard
+Bien que le paradigme de l'IdO ait été un succès, le développement des applicati
+ons de l'IdO soulève de grands défis.
+ Le premier est que les objets IoT sont déployés dans des environnements
+ hautement distribués et incertains, subissant ainsi des changements imprévisibl
+es.
+ Ils sont également dotés de ressources limitées, ce qui a un impact considérabl
+e sur les performances des équipements IdO.
+ Des solutions basées sur le cloud sont nécessaires pour collecter, stocker
+ et traiter les données.
+ L'IdO souffre également d'un autre problème sérieux qui est la fragmentation
+ verticale de son marché, ce problème est dû à la diversité des standards
+ utilisés par les fabricants d'objets connectés, aux différents formats
+ de données ainsi qu'à la variété des protocoles et des standards de communicati
+on.
+ 
+\end_layout
+
+\begin_layout Standard
+De nombreuses solutions prometteuses ont été fournies pour gérer la complexité
+ et l'hétérogénéité des objets de l'IdO.
+ L'une des approches les plus prometteuses consiste à développer des environneme
+nts virtuels pour résoudre les problèmes causés par l'hétérogénéité des
+ objets.
+ La virtualisation est devenue un élément clé dans de nombreuses architectures
+ IdO, sous la forme d'objets ou d'entités virtuels récemment, le consortium
+ W3C lui a donné le nom d'Avatar .
+ Un objet virtuel (VO) est défini comme une représentation numérique d'un
+ objet du monde réel 
+\series bold
+
+\begin_inset CommandInset citation
+LatexCommand citep
+key "nitti_virtual_2016"
+literal "false"
+
+\end_inset
+
+
+\series default
+ et fournit un moyen pour les services IdO de découvrir et de composer des
+ caractéristiques qui ne peuvent pas être réalisées directement avec un
+ objet du monde réel (RWO).
+ On s'est rendu compte que des questions telles que l'hétérogénéité d'objets
+ dissemblables et l'extensibilité peuvent être efficacement résolues à l'aide
+ des RWO.
+ Par conséquent, un rôle crucial d'un VO est de combler l'écart entre le
+ monde physique et le monde virtuel en cachant les caractéristiques physiques
+ d'un dispositif d'IdO et en acquérant et en interprétant ses données et
+ son contexte.
+\series bold
+
+\begin_inset CommandInset citation
+LatexCommand citep
+key "ali_model_2018"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Travaux existants
+\end_layout
+
+\begin_layout Standard
+De nombreux travaux liés au concept de virtualisation d'objets connectés
+ ont été proposés ces dernières années dans le cadre de recherches scientifiques
+ et de projets industriels.
+\end_layout
+
+\begin_layout Standard
+Une étude comparative autour de la virtualisation des objets connectés est
+ présentée dans 
+\series bold
+
+\begin_inset CommandInset citation
+LatexCommand citep
+key "khadir_autonomous_2019"
+literal "false"
+
+\end_inset
+
+ 
+\series default
+:
+\end_layout
+
+\begin_layout Standard
+Les travaux de Romer et al.
+ dans 
+\series bold
+
+\begin_inset CommandInset citation
+LatexCommand citep
+key "romer_smart_2004"
+literal "false"
+
+\end_inset
+
+
+\series default
+ utilisent le concept de pièces de Méta Compteur Virtuel (VMC) pour représenter
+ des objets non connectés étiquetés par des étiquettes RFID.
+ Ce travail est limité par rapport aux besoins des applications de l'IdO
+ car il ne permet pas de découvrir automatiquement les services fournis
+ par les objets et leur collaboration.
+ 
+\end_layout
+
+\begin_layout Standard
+Dans 
+\series bold
+
+\begin_inset CommandInset citation
+LatexCommand citep
+key "han_semantic_2014"
+literal "false"
+
+\end_inset
+
+
+\series default
+, un système immotique dont les dispositifs sont représentés par le concept
+ DPWS (Device Profile for Web Service) est proposé.
+ Ce travail est basé sur le paradigme SOA (Service-Oriented Architecture)
+ pour remplir la composition dynamique des services en fonction des informations
+ contextuelles collectées et traitées.
+ Dans cette architecture, tous les DPWS sont orchestrés et gérés par un
+ Building Application Server (BApS) central et les DPWS sont passifs.
+ 
+\end_layout
+
+\begin_layout Standard
+Le travail présenté dans 
+\series bold
+
+\begin_inset CommandInset citation
+LatexCommand citep
+key "mrissa_avatar_2015"
+literal "false"
+
+\end_inset
+
+
+\series default
+ s'appuie sur le concept d'avatar pour représenter les objets physiques
+ sur le Web.
+ Comme décrit, dans cette architecture, les avatars sont passifs et les
+ auteurs abordent le problème du déploiement dynamique des avatars.
+ L'architecture sous-jacente est adaptée à une gestion centralisée des avatars.
+ 
+\end_layout
+
+\begin_layout Standard
+Le projet européen SENSEI 
+\series bold
+
+\begin_inset CommandInset citation
+LatexCommand citep
+key "presser_sensei_2009"
+literal "false"
+
+\end_inset
+
+
+\series default
+ vise à créer une architecture ouverte qui incarne la vision du monde réel
+ de l'Internet (RWI).
+ Cette architecture est basée sur l'abstraction du réseau hétérogène de
+ capteurs et d'actionneurs sans fil (WSAN) des différentes sociétés appartenant
+ au consortium dans un cadre global via des entités appelées ressources.
+ Une ressource SENSEI peut représenter un ou plusieurs objets.
+ Elle expose leurs caractéristiques via des interfaces universelles.
+ Leur solution se limite à la représentation passive des objets IoT.
+ 
+\end_layout
+
+\begin_layout Standard
+IoT-A (Internet of Things-Architecture) 
+\series bold
+
+\begin_inset CommandInset citation
+LatexCommand citep
+key "nitti_virtual_2016"
+literal "false"
+
+\end_inset
+
+
+\series default
+, 
+\series bold
+
+\begin_inset CommandInset citation
+LatexCommand citep
+key "payam_service_2011"
+literal "false"
+
+\end_inset
+
+
+\series default
+ est un projet européen qui vise également à fournir une architecture de
+ référence et un ensemble de briques de base pour faciliter la la mise en
+ œuvre d'applications de l'IdO.
+ Ce projet prolonge les modèles proposés dans le projet SENSEI 
+\series bold
+
+\begin_inset CommandInset citation
+LatexCommand citep
+key "presser_sensei_2009"
+literal "false"
+
+\end_inset
+
+
+\series default
+ en enrichissant les modèles de description des données produites ou utilisées
+ par les objets physiques par des annotations sémantiques via OWL-DL.
+ Ces descriptions sémantiques incluent des informations contextuelles sur
+ l'environnement du dispositif, ce qui donne du sens aux données brutes
+ des capteurs.
+ Une VO, dans ce projet, est désignée par une Entité Virtuelle (VE) plutôt
+ que par une Ressource comme dans SENSEI.
+ Un objet physique peut fournir un ou plusieurs services et chaque service
+ est associé à une VE qui.
+ Les éléments de base fournis sont des services de haut niveau prêts à l'emploi.
+ Ils sont le résultat de l'orchestration de plusieurs VE.
+ Le modèle proposé dans ce projet est très intéressant grâce à l'utilisation
+ d'ontologies sémantiques mais les VE sont passifs.
+ 
+\end_layout
+
+\begin_layout Standard
+iCore
+\begin_inset CommandInset citation
+LatexCommand nocite
+key "noauthor_projet_nodate"
+literal "false"
+
+\end_inset
+
+ est un framework qui exploite les capacités avancées de modélisation sémantique
+ du projet IoT-A pour représenter les dispositifs du monde réel.
+ La spécificité de l'architecture définie est qu'elle s'appuie sur un cadre
+ cognitif pour automatiser le traitement des informations collectées et
+ la prise des décisions correspondantes aux changements détectés.
+ L'architecture iCore se compose de trois couches : 
+\end_layout
+
+\begin_layout Itemize
+La couche inférieure est appelée Virtual Object Level (VOL) qui fournit
+ des représentations virtuelles d'objets du monde réel qui peuvent être
+ dynamiquement créés et détruits.
+ Les capacités des objets sont universellement exposées aux couches supérieures
+ et aux autres architectures.
+ Un VO peut abstraire plusieurs objets réels et un objet réel peut être
+ représenté par plusieurs VO comme dans IoT-A.
+ Les VO sont stockées dans un registre de VO peu commun qui fournit des
+ fonctions d'interrogation pour trouver la VO qui correspond le mieux à
+ une demande.
+ 
+\end_layout
+
+\begin_layout Itemize
+La couche composite au niveau de l'objet virtuel (CVOL) est la couche qui
+ fournit les mécanismes cognitifs pour la fusion sémantique des VO disponibles
+ afin de créer des services composés à valeur ajoutée.
+ Elle est basée sur la logique "événement/action".
+ Les VO construites sont également publiées dans le dépôt de l'OVC.
+ 
+\end_layout
+
+\begin_layout Itemize
+Le niveau de service (SL) est la dernière couche du Architecture iCore pour
+ traduire les demandes des utilisateurs finaux et rechercher les CVO les
+ plus appropriés pour les satisfaire.
+ La science cognitive et les mécanismes de raisonnement sémantique sont
+ la force de l'architecture iCore car ils automatisent le traitement des
+ demandes des utilisateurs.
+ Cependant, les VO n'ont aucune capacité de raisonnement pour réagir aux
+ événements internes ou externes, et ils sont simplement utilisés par une
+ autre couche.
+\end_layout
+
+\begin_layout Standard
+ETSI M2M et oneM2M : ETSI M2M 
+\begin_inset CommandInset citation
+LatexCommand nocite
+key "noauthor_etsi_nodate"
+literal "false"
+
+\end_inset
+
+ est une spécification technique développée en 2009 par l'Institut européen
+ des normes de télécommunications (ETSI) pour développer et maintenir des
+ architectures complètes IoT/M2M en créant une couche de service commune.
+ En 2012, l'ETSI s'engage pleinement dans l'initiative mondiale oneM2M de
+ sept organismes de normalisation internationaux [18], qui vise à fournir
+ un standard mondial pour la construction de plates-formes de services IoT.
+ Dans ce standard, la virtualisation des objets physiques est représentée
+ via des ressources RESTful.
+ Une ressource est adressable de manière unique via un URI et elle correspond
+ à un seul objet physique ce qui donne l'association un à un.
+ Ce standard a été obtenu en fournissant des mécanismes permettant aux plates-fo
+rmes d'être hautement extensibles pour intégrer les technologies existantes
+ et nouvelles.
+ Il fournit également des méthodes pour la découverte efficace des ressources
+ et des abonnements/notifications.
+ Cependant, comme les autres ouvrages, ces ressources sont passives et ne
+ peuvent pas être conscientes de leur état pour agir en conséquence.
+\end_layout
+
+\begin_layout Standard
+Pour résumer, le tableau I donne une synthèse des travaux étudiés selon
+ six propriétés : 
+\end_layout
+
+\begin_layout Itemize
+Cardinalité de la représentation : qui désigne le nombre d'objets affectés
+ à une représentation virtuelle.
+ 
+\end_layout
+
+\begin_layout Itemize
+Le concept de virtualisation : qui correspond à la concept de l'abstraction.
+\end_layout
+
+\begin_layout Itemize
+Description sémantique : qui considère si le travail étudié s'appuie sur
+ de riches descriptions sémantiques.
+\end_layout
+
+\begin_layout Itemize
+La nature de la gestion des applications : qui indique si la gestion des
+ systèmes est centralisée ou décentralisée.
+\end_layout
+
+\begin_layout Itemize
+Infrastructure de déploiement : qui définit l'architecture environnement
+ de déploiement
+\end_layout
+
+\begin_layout Itemize
+Type de comportement : qui correspond à un comportement passif ou actif
+ comportement de la représentation virtuelle.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Tabular
+<lyxtabular version="3" rows="8" columns="7">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="2.2cm">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Travail
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "3cm"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+Cardinalité de représentation
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "3cm"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+Concept de virtualisation
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "1.5cm"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+Description sémantique
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "2cm"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+Application management nature
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "2cm"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+Infrastructure
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "1.5cm"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+Type de comportement
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset CommandInset citation
+LatexCommand citeauthor
+key "romer_smart_2004"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+un pour plusieurs
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "3cm"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status collapsed
+
+\begin_layout Plain Layout
+Virtual Meta Counterparts (VMC)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Central
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Indéfini
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset CommandInset citation
+LatexCommand citeauthor
+key "mrissa_avatar_2015"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+un pour un
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "3cm"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+Avatar
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
++
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Indéfini
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "2cm"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+Device, fog,cloud
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
++
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset CommandInset citation
+LatexCommand citeauthor
+key "han_semantic_2014"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+un pour un
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "3cm"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+Virtual Meta Counterparts (VMC)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
++
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+BDD central
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Serveur
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+SENSEI
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+un pour plusieurs
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "3cm"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+Device Profile for Web Service (DPWS)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Distribué
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Cloud
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+IoT-A
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+plusieurs pour un
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "3cm"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+Ressource
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
++
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Distribué
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Indéfini
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+iCore
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "3cm"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+plusieurs pour plusieurs
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "3cm"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+Virtual Entity (VE)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
++
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Repo centrale
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+fog, cloud
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "1.5cm"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+ETSI M2M and oneM2M
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+un pour un
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "3cm"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+Ressource
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
++
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Distribué
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+fog, cloud
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Synthèse travaux virtualisation 
+\series bold
+
+\begin_inset CommandInset citation
+LatexCommand citeauthor
+key "khadir_autonomous_2019"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter
+La découverte distribuée dans SIoT/SWoT
+\end_layout
+
+\begin_layout Section
+\paragraph_spacing onehalf
+Principe
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+\noindent
+\align block
+La découverte de service vise à trouver les objets qui offrent un service
+ approprié au profit des utilisateurs.
+ Dans l'IdO, la localisation d'objets, d'informations et de services est
+ un problème critique, en particulier dans les environnements en temps réel.
+ Cette section décrit les stratégies de conception du processus de découverte
+ de service dans SIoT.
+ Une fonction de découverte est similaire pour les humains et les objets
+ dans SIoT.
+ SIoT établit des structures sociales parmi les objets et les personnes
+ qui ont l'intention de fournir des services.
+ Lorsque les utilisateurs / objets envoient une requête spécifique / indépendant
+e à la plate-forme pour découvrir des objets (qui sont essentiellement considéré
+s comme le fournisseur de services) via des interfaces de programmation
+ d'application (API), la requête est mise en correspondance avec les services
+ disponibles existant exactement ou à proximité de leur emplacement.
+ et qui répond à leurs préférences et à leur historique d’interactions.
+ Une liste de tous les objets / services pertinents qui correspondent exactement
+ à leurs exigences et répondent à leur niveau de qualité de service est
+ renvoyée au demandeur.
+ L'algorithme 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "alg:Processus-de-résolution"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ décrit les étapes du processus de découverte d'objet / service dans SIoT,
+ consistant en une demande de service, une extraction d'informations, une
+ correspondance de service, un filtrage de service et une liste de services.
+\series bold
+
+\begin_inset CommandInset citation
+LatexCommand citep
+key "m.s._social_2019"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float algorithm
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{algorithmic}[1] 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+State{Demande de service:l'utilisateur/l'objet envoie une demande pour découvrir
+ les services et objets intelligents.} 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+State{Récupération des faits dans la requête:Prétraitez la demande de découverte
+ pour récupérer les faits tels que l'emplacement,le type de service...etc,
+ à l'aide du processeur de langage naturel.} 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+State{Matching de service: recherchez des services du type correspondant
+ dans le référentiel de services.} 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+State{Filtrage et classement des services: élimine les services non pertinents
+ et les classe en fonction de leur classement, autorisation, confiance,
+ etc.} 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+State{Liste de services: renvoie la liste classée des services pertinents
+ correspondant aux besoins des objets/utilisateurs.}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{algorithmic}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "alg:Processus-de-résolution"
+
+\end_inset
+
+Processus de résolution des demandes de service dans SIoT
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Travaux existants
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+\noindent
+\align block
+Dans ce qui suit nous décrivons quelques algorithmes et stratégies de découverte
+ des services :
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+\noindent
+\align block
+
+\series bold
+\begin_inset CommandInset citation
+LatexCommand citep
+key "li_decentralized_2015"
+literal "false"
+
+\end_inset
+
+ 
+\series default
+ont proposé une approche décentralisée tenant compte du contexte pour la
+ découverte de services dans l'IoT.
+ Le cadre adopte les techniques du Web sémantique, en particulier l’ontologie,
+ pour chiffrer les informations de contexte et sélectionne les services
+ les mieux adaptés.
+ L'ontologie donne une connaissance de base du contexte et permet au service
+ de découverte de dériver les relations entre les entités et le contexte.
+ La structure de découverte est développée sur une architecture P2P (P2P)
+ distribuée, évolutive et robuste.
+ Il ne traite pas des opérations de découverte asynchrones, particulièrement
+ importantes dans les systèmes 
+\shape italic
+context-aware
+\shape default
+.
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+\noindent
+\align block
+
+\series bold
+\begin_inset CommandInset citation
+LatexCommand citep
+key "hussein_dynamic_2015"
+literal "false"
+
+\end_inset
+
+
+\series default
+ ont étendu un cadre social dynamique axé sur les objectifs, à savoir la
+ structure sociale dynamique des choses (DSSoT).
+ Il est conçu pour renforcer la socialité et réduire la complexité contextuelle
+ à la conscience de la situation pour des systèmes sociaux physiques et
+ cybernétiques hétérogènes.
+ Un cadre de découverte de service dynamique pour intégrer des informations
+ dans l'environnement SIoT à l'aide d'un mécanisme de raisonnement cognitif
+ proposé dans 
+\series bold
+
+\begin_inset CommandInset citation
+LatexCommand citep
+key "hussein_towards_2017"
+literal "false"
+
+\end_inset
+
+
+\series default
+.
+ Le cadre intègre l'intelligence et la connaissance du contexte, ainsi que
+ la convivialité et la connectivité permettant d'améliorer la découverte
+ de services intelligents et l'adaptabilité aux besoins des utilisateurs,
+ renforçant ainsi l'expérience des utilisateurs dans les espaces intelligents.
+ Il illustre la mise en œuvre de la découverte dynamique de services intelligent
+s dans la vie réelle, en prenant comme exemple une instance de terminal
+ d’aéroport, mais n’a pas été étendue à d’autres instances d’endroits intelligen
+ts.
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+\noindent
+\align block
+L' algorithme de découverte des services proposée dans 
+\series bold
+
+\begin_inset CommandInset citation
+LatexCommand citep
+key "kasnesis_cognitive_2017"
+literal "false"
+
+\end_inset
+
+
+\series default
+ a été définit dans un contexte systématique appelé 
+\begin_inset Quotes xld
+\end_inset
+
+Goal management system
+\begin_inset Quotes xrd
+\end_inset
+
+.ce dernier englobe trois composants intelligents : la découverte de service
+ ,l'orchestration de service ,service binding.Selon l'algorithme proposé
+ l'objet commence à chercher le service dans la liste de ses amis s'il trouve
+ rien il lance le processus de découverte en choisissant l'une de ces trois
+ méthodes:
+\end_layout
+
+\begin_layout Itemize
+\paragraph_spacing onehalf
+\noindent
+\align block
+
+\series bold
+Approche basée sur les relations sociales :
+\series default
+ Chercher le service dans la liste des amis des amis (explorer le réseau
+ social en profondeur).
+\end_layout
+
+\begin_layout Itemize
+\paragraph_spacing onehalf
+\noindent
+\align block
+
+\series bold
+Approche basée sur la région géospaciale :
+\series default
+ Chercher le service par regions géospaciale.
+\end_layout
+
+\begin_layout Itemize
+\paragraph_spacing onehalf
+\noindent
+\align block
+
+\series bold
+Approche basée sur les réseaux MANET :
+\series default
+ Exploiter la nature distrubuer et dynamique des MANETs par l'utlisation
+ de plusieurs techniques (Tradisional fllooding, Single Random walkers...etc)
+ pour la découverte de service,la selection de la technique optimale est
+ basée sur plusieurs facteurs tel que le nombre de paquet ,la consomation
+ d'énergie, le temps nécessaire pour couvrir le réseau et dynamicité de
+ la topologie réseau.
+\end_layout
+
+\begin_layout Chapter
+\paragraph_spacing onehalf
+La sélection basée sur la QoS dans SIoT/SWoT
+\end_layout
+
+\begin_layout Section
+Introduction
+\end_layout
+
+\begin_layout Standard
+La découverte des services permet d'indentifier un ensemble de services
+ qui permet de satisfaire les besoins annoncés par la requête.Vue le grand
+ nombre et la diversité des services offerts,plusieurs services candidats
+ peuvent etre trouver pour une requête donnée, il devient donc plus crucial
+ de sélectionner les services web les plus pertinents qui fascinent à la
+ fois les exigences fonctionnelles et non fonctionnelles des utilisateurs.
+ Le processus de sélection des services est principalement basé sur les
+ exigences et les préférences de QoS.
+ Il s'agit d'un classement personnalisé des services basé sur les exigences
+ de QoS et sur différentes stratégies de décision.
+ Ils dépendent principalement des données historiques des requêtes des utilisate
+urs.
+\series bold
+
+\begin_inset CommandInset citation
+LatexCommand citep
+key "arunachalam_survey_2017"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Travaux existants
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+\noindent
+Dans le travail 
+\series bold
+
+\begin_inset CommandInset citation
+LatexCommand citep
+key "hwang_service_2015"
+literal "false"
+
+\end_inset
+
+
+\series default
+, le service adéquat est sélectionné en utilisant divers attributs de QoS
+ tels que la disponibilité, le temps de réponse, le temps d'accès, le débit,
+ la fidélité, etc.Ce travail intègre les propriétés fonctionnelles et non
+ fonctionnelles.
+ Les attributs non fonctionnels sont des critères importants pour la sélection
+ des services.Il ont utilisé également la programmation en nombres entiers
+ et la méthode axée sur les coûts pour obtenir de meilleurs résultats.
+ L'objectif principal est de réaliser certaines valeurs de QoS et de satisfaire
+ certaines contraintes pour des services de QoS agrégés.
+ Des algorithmes heuristiques sont utilisés pour trouver les solutions quasi
+ optimales en temps polynomial.Les valeurs de QoS conformes aux contraintes
+ de QoS spécifiées par l'utilisateur appelées contrainte globale.
+ Pour les attributs QoS positifs, les contraintes globales sont spécifiées
+ comme une limite inférieure.
+ De même, pour les attributs QoS négatifs, les contraintes globales sont
+ spécifiées comme une limite supérieure.Malgré que cette approche offre de
+ bonne performance mais le résultat de l'affectation des services Web n'ont
+ pas permet d'obtenir une bonne conformité globale de la qualité de service.
+ et aussi le critère de temps d'exécution a été le plus sollicité, bien
+ qu'il nécessite de nombreuses itérations.
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+\noindent
+
+\series bold
+\begin_inset CommandInset citation
+LatexCommand citep
+key "ouadah_combining_2015"
+literal "false"
+
+\end_inset
+
+
+\series default
+ proposent une nouvelle approche basée sur des méthodes de prise de décision
+ multicritères.
+ Les différentes méthodes sont Skyline, AHP et promethee pour la sélection
+ des services web.
+ L'AHP est utilisée pour pondérer les critères de QoS.
+ La méthode Promethee est utilisée pour classer les services Skyline.
+ L'algorithme des boucles imbriquées en bloc effectue un balayage complet
+ de l'ensemble des données en plusieurs itérations pour calculer l'horizon.
+ La sélection des services Skyline adapte les algorithmes de skyline pour
+ calculer le meilleur plan d'exécution de service.
+ Dans le contexte de la sélection de services Web, qui combine deux ou plusieurs
+ méthodes de MCDM pour classer les services.
+ Skyline est utilisé pour réduire l'espace de recherche.
+ Ensuite, on calcule les poids des critères de QoS en se basant sur la méthode
+ AHP.
+ Les services candidats sont classés en fonction de la relation de surclassement
+ en utilisant différentes fonctions de préférences exprimées sur les critères
+ de QoS.
+ Dans ce processus, tous les services sont classés en fonction des préférences
+ de l'utilisateur.
+ La plupart des besoins des préférences de l'utilisateur sont satisfaits.Les
+ expétimentation ont montré que cette méthode donne une meilleure précision
+ sur le classement des services web mais un grande nombre de services web
+ à sélectonner représente un obstacle pour cette méthode.
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+\noindent
+
+\series bold
+\begin_inset CommandInset citation
+LatexCommand citep
+key "makhlughian_web_2012"
+literal "false"
+
+\end_inset
+
+ 
+\series default
+présentent un framework avec des attributs classés pour le processus global
+ de sélection de services qui classe les candidats de services Web en fonction
+ des différentes exigences des utilisateurs sur la base des niveaux de QoS.
+ La classification associative classe les meilleurs services candidats sur
+ la base de leurs qualités fonctionnelles en utilisant la correspondance
+ sémantique.
+ La méthode heuristique est utilisée, ce qui exclut un grand nombre de solutions.
+ L'interface graphique permet à l'utilisateur de définir ses demandes particuliè
+res.L'algorithme CBA est utilisé pour classer les services candidats à différents
+ niveaux de QoS en fonction des exigences de l'utilisateur.
+ L'utilisation d'algorithmes d'extraction permet d'optimiser l'algorithme
+ heuristique et de réduire le temps d'exécution.
+ Les liens sémantiques augmentent la précision dans la sélection entre les
+ services.Cette approche offre de bonne perfermance grace à l'utilisation
+ d'une approche heuristique mais la solution optimale n'est pas trouvé dans
+ tout les cas.
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+\noindent
+Dans le travail 
+\series bold
+
+\begin_inset CommandInset citation
+LatexCommand citep
+key "shamszaman_enabling_2019"
+literal "false"
+
+\end_inset
+
+
+\series default
+ une approche basée sur l'utilisation de la programmation en nombre entier
+ (IP) qui est un programme d'optimisation mathématique où les variables
+ doivent être des entiers.Le prix, la durée, la réputation de l'objet, le
+ taux de succès et la disponibilité sont les critères de QoS considérés
+ dans ce travail :
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Prix
+\series default
+ : il s'agit des frais qu'un utilisateur doit payer pour obtenir un service
+ à partir d'un objet.
+ cependant, le prix peut être n'importe quel montant à partir de 0 qui doit
+ être mentionné dans le profil d'objet.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Durée
+\series default
+ : la durée est la somme du temps d'exécution de la tâche et du temps de
+ transmission.
+ Les objets doivent mentionner leur temps de traitement dans leur profil
+ ou mentionner un moyen de le demander.
+ Le temps de transmission est estimé sur la base des performances.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Réputation
+\series default
+ : il s'agit de la mesure de la fiabilité de la capacité spécifique d'un
+ objet.Le facteur clé ici est l'expérience de l'utilisateur final avec l'objet
+ .
+ L'expérience utilisateur peut varier sur le même objet.
+ La valeur de la réputation est définie comme la note moyenne attribuée
+ à la capacité d'un objet.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Le taux de succès
+\series default
+ : ce critère consiste à vérifier si une tâche a été exécutée avec succès
+ dans le délai annoncé.
+ 
+\end_layout
+
+\begin_layout Standard
+Les expérimentations ont montré que IP est approprié lorsque plus d'un objet
+ est nécessaire pour exécuter une tâche.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="5" columns="7">
+<features islongtable="true" headTopDL="true" longtabularalignment="left">
+<column alignment="center" valignment="top" width="0pt">
+<column alignment="center" valignment="top" width="0pt">
+<column alignment="center" valignment="top" width="0pt">
+<column alignment="center" valignment="top" width="0pt">
+<column alignment="center" valignment="top" width="0pt">
+<column alignment="center" valignment="top" width="0pt">
+<column alignment="center" valignment="top" width="0pt">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "2cm"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+Travail
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "2cm"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+Approches utilisées
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "2cm"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+Critères QoS considérés
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "1.7cm"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align left
+Préférence de l'utilisateur
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace 0.2cm
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "2cm"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+Nature
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "2cm"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+Avantages
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "3cm"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+Désavantages
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "2cm"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\begin_inset CommandInset citation
+LatexCommand citep
+key "hwang_service_2015"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "2cm"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align left
+IP, la méthode axée sur les coûts.
+\end_layout
+
+\begin_layout Plain Layout
+\noindent
+\align left
+Heuristique
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "2cm"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align left
+La disponibilité, le temps de réponse,le temps d'accès, le débit,la fidélité
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+OUI
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Statique
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "2cm"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+Haute performance
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "3cm"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align left
+Le résultat de l'affectation des services Web ne permet pas d'obtenir une
+ bonne conformité globale de la qualité de service.
+\end_layout
+
+\begin_layout Plain Layout
+\noindent
+\align left
+Le temps d'exécution a été plus sollicité, bien qu'il nécessite de nombreuses
+ itérations.
+\end_layout
+
+\begin_layout Plain Layout
+\noindent
+\align left
+\begin_inset VSpace 0.2cm
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "2cm"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\begin_inset CommandInset citation
+LatexCommand citep
+key "ouadah_combining_2015"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "2cm"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\paragraph_spacing onehalf
+\noindent
+Trois méthodes MCDM: Skyline, AHP et promethee
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "2cm"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+ne sont pas mentionnés
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+OUI
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "2cm"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+Statique
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "2cm"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+Il donne des résultats précis.
+\end_layout
+
+\begin_layout Plain Layout
+l'utilisation de Skyline permet de réduire l'espace de recherche.
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace 0.2cm
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "3cm"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align left
+Dégradation de performance pour les expérimentations à large échelle.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "2cm"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\begin_inset CommandInset citation
+LatexCommand citep
+key "makhlughian_web_2012"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "2cm"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+Classification associative basée sur le semantic matching
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+/
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+/
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "2cm"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+Dynamique
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "2cm"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+Haute performance
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "3cm"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align left
+La sélection dynamique des services a connu quelques difficultés.
+\end_layout
+
+\begin_layout Plain Layout
+\noindent
+\align left
+Dans de nombreux cas, la solution optimale n'est pas trouvée.
+\end_layout
+
+\begin_layout Plain Layout
+\noindent
+\align left
+Elle est plus coûteuse à mettre en œuvre.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "2cm"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\begin_inset CommandInset citation
+LatexCommand citep
+key "shamszaman_enabling_2019"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "2cm"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+IP
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "2cm"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\paragraph_spacing onehalf
+\noindent
+\align left
+Le prix, la durée, la réputation de l'objet, le taux de succès et la disponibili
+té
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+OUI
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "2cm"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+Statique
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "2cm"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align left
+Appropriée pour la sélection des objets composés.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "3cm"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+Consommation en mémoire est grand en comparant à l'approche MCDM.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+btprint "btPrintCited"
+bibfiles "bi"
+options "plainnat"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+setcounter{page}{1}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

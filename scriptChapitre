@@ -1,0 +1,5 @@
+%\ExecuteBibliographyOptions{backref=true,isbn=false}
+%\setmainfont[Scale=1.05]{EB Garamond} % for use with XeLaTeX and LuaLaTeX; download from bitbucket.org/georgd/eb-garamond
+%Options: Sonny, Lenny, Glenn, Conny, Rejne, Bjarne, Bjornstrup
+\usepackage[Sonny]{fncychap}
+\usepackage{algorithm,algpseudocode}
